@@ -1,0 +1,19 @@
+Index: Pipfile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Pipfile	(revision f238c6fb975a72d69f52c506ee37af7f844a45df)
++++ Pipfile	(revision f238c6fb975a72d69f52c506ee37af7f844a45df)
+@@ -0,0 +1,11 @@
++[[source]]
++name = "pypi"
++url = "https://pypi.org/simple"
++verify_ssl = true
++
++[dev-packages]
++
++[packages]
++
++[requires]
++python_version = "3.6"
